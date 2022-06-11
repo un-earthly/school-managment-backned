@@ -1,8 +1,7 @@
 const verifyRole = async (req, res, next) => {
+
+    const userEmail = req.decoded.email
     
-
-
-
     next()
 }
-export default verifyRole;
+module.exports = verifyRole
